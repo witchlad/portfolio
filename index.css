@@ -37,7 +37,7 @@ navbar{
 }
 
 .navbar-logo h1{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 800;
     margin-left:20px;
 }
@@ -501,6 +501,12 @@ navbar{
 
 
 @media(min-width:992px){
+    
+    .navbar-list {
+    margin-top:20px;
+    padding:20px;
+    font-weight: 700;
+    }
     
     .tech-hexagon{
         margin-top:100px;
