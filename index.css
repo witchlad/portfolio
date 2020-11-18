@@ -45,7 +45,7 @@ navbar{
 .navbar-logo span{
     font-size:0.9rem;
     display:block;
-    margin-left:104px;
+    margin-left:60px;
     line-height:1.5;
 }
 
@@ -54,7 +54,7 @@ navbar{
     height:10px;
     content:"";
     position:absolute;
-    margin-left:-70px;
+    margin-left:-60px;
     margin-top:6px;
     border-radius:10px;
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,127,127,1) 100%);
@@ -91,12 +91,14 @@ navbar{
     margin-top:18px;
     padding:0px;
     text-align:center;
+    border:1px solid red;
 }
 
 .navbar-list li{
     padding:20px;
     font-weight: 700;
     width:100%;
+    border:1px solid green;
 }
 
 .navbar-list a{
@@ -107,6 +109,7 @@ navbar{
     letter-spacing: 0.1em;
     position: relative;
     padding:10px;
+    border:1px solid pink;
 }
 .navbar-list a::after {  
     content:"";
@@ -221,12 +224,22 @@ navbar{
     margin-left:50px;
 }
 
+.subtitle-pill{
+    font-size:0.9rem;
+    display:block;
+    margin-left:110px;
+    line-height:1.5;
+    font-weight: 800;
+    margin-top:0px;
+    letter-spacing: 2px;
+}
+
 .subtitle-pill::before{
     width:50px;
     height:10px;
     content:"";
     position:absolute;
-    margin-left:-70px;
+    margin-left:-60px;
     margin-top:6px;
     border-radius:10px;
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,127,127,1) 100%);
@@ -413,16 +426,6 @@ navbar{
     background-image:url("/images/project4.jpg");
     background-size:cover;
     background-position: center;
-}
-
-.subtitle-pill{
-    font-size:0.9rem;
-    display:block;
-    margin-left:155px;
-    line-height:1.5;
-    font-weight: 800;
-    margin-top:0px;
-    letter-spacing: 2px;
 }
 
 
