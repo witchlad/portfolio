@@ -140,13 +140,14 @@ navbar{
 
 .home-page{
     margin-left:50px;
+    margin-right:50px;
     height: 80vh;
     position:relative;
     padding-top:200px;
 }
 
 .home-page-title h1{
-    font-size:9vh;
+    font-size:3rem;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing:0.1rem;
@@ -162,7 +163,6 @@ navbar{
 
 .home-page-title small{
     display:block;
-    margin-top:-50px;
     margin-left:3px;
     font-size:1.4rem;
 }
@@ -178,7 +178,7 @@ navbar{
 
 .home-page-btn::before{
     width:0px;
-    height:44px;
+    height:42px;
     content:"";
     background-color:red;
     position:absolute;
@@ -195,8 +195,8 @@ navbar{
 }
 
 .home-page-btn:hover::before{
-    width:130px;
-    transition: width 0.3s;
+    width:120px;
+    transition: width 0.1s;
 }
 
 .about-me {
