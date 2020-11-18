@@ -358,12 +358,13 @@ navbar{
     flex-flow:column;
     justify-content: space-around;
     margin-top:50px;
-    margin-left:50px;
-    margin-right:50px;
+    border:1px solid red;
 }
 
 .project-exp{
     width:400px;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 
@@ -373,7 +374,6 @@ navbar{
     display:flex;
     margin-top:20px;
     margin-left:auto;
-    margin-right:auto;
     text-align:center;
     border: 5px solid #fafafa;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -402,8 +402,7 @@ navbar{
     text-align:center;
     background-color:white;
     border: 5px solid #fafafa;
-    margin-left:auto;
-    margin-right:auto;
+  
 }
 
 #image-1{
