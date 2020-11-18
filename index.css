@@ -146,7 +146,7 @@ navbar{
 }
 
 .home-page-title h1{
-    font-size:10vh;
+    font-size:8vh;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing:0.1rem;
@@ -248,7 +248,7 @@ navbar{
 }
 
 .about-me-img{
-    width:50%;
+    width:70%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -531,6 +531,11 @@ navbar{
     margin-left:200px;
     margin-right:200px;
     }
+    
+    .about-me-img{
+    width:50%;
+
+}
     
 }
 
