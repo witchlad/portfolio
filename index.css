@@ -358,11 +358,10 @@ navbar{
     flex-flow:column;
     justify-content: space-around;
     margin-top:50px;
-    border:1px solid red;
 }
 
 .project-exp{
-    width:400px;
+    width:80%;
     margin-left:auto;
     margin-right:auto;
 
