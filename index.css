@@ -133,14 +133,14 @@ navbar{
 
 .open{
     margin-top:100px;
-    height:90vh;
+    height:100vh;
     transition: all 0.5s;
 }
 
 .home-page{
     margin-left:50px;
     margin-right:50px;
-    height: 80vh;
+    height: 70vh;
     position:relative;
     padding-top:200px;
 }
@@ -172,12 +172,16 @@ navbar{
     margin-left:2px;
     padding:13px;
     letter-spacing:1px;
-    color:black;
     }
+
+.home-page-btn *{
+    color:black;
+    text-decoration: none;
+}
 
 .home-page-btn::before{
     width:0px;
-    height:42px;
+    height:44px;
     content:"";
     background-color:red;
     position:absolute;
@@ -194,7 +198,7 @@ navbar{
 }
 
 .home-page-btn:hover::before{
-    width:122px;
+    width:140px;
     transition: width 0.1s;
 }
 
@@ -251,6 +255,7 @@ navbar{
     width:80%;
     margin-left:auto;
     margin-right:auto;
+    line-height: 2;
 }
 
 .about-me-info p span{
@@ -514,6 +519,10 @@ navbar{
     font-weight: 700;
     }
     
+    .about-me p{
+        margin-top:100px;
+    }
+    
     .tech-hexagon{
         margin-top:100px;
        flex-flow:row ;
@@ -549,6 +558,11 @@ navbar{
 }
 
 @media(min-width:700px){
+    .navbar-logo h1{
+        margin-left:50px;
+        margin-top:20px;
+    }
+    
     .home-page-title h1{
     font-size:10vh;
     font-weight: 800;
@@ -569,7 +583,13 @@ navbar{
     margin-top:50px;
     margin-left:50px;
     margin-right:50px;
-}
+    }
+    .project-exp{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+
+        }
 }
 
 
