@@ -172,6 +172,7 @@ navbar{
     margin-left:2px;
     padding:13px;
     letter-spacing:1px;
+    transition: 1s;
     }
 
 .home-page-btn *{
@@ -179,27 +180,8 @@ navbar{
     text-decoration: none;
 }
 
-.home-page-btn::before{
-    width:0px;
-    height:44px;
-    content:"";
-    background-color:red;
-    position:absolute;
-    margin-left:-15px;
-    margin-top: -15px;
-    z-index:-1;
-    transition: width 0.3s;
-    opacity:0.5;
-}
-
-.home-bage-btn:hover{
-    color:white;
-    border:white;
-}
-
-.home-page-btn:hover::before{
-    width:140px;
-    transition: width 0.1s;
+.home-page-btn:hover{
+    background-color:#ff7f7f;
 }
 
 .about-me {
@@ -395,12 +377,18 @@ navbar{
     margin: 10px 5px;
     position:relative;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition:1s;
     }
+
+.project-btn:hover{
+    background-color:#ff7f7f;
+}
 
 .project-btn *{
     text-decoration: none;
     color:black;
 }
+
 
 .project-btm-btn{
     text-align:center;
