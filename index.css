@@ -247,7 +247,7 @@ navbar{
 }
 
 .about-me h4{
-    margin-left:106px;
+    margin-left:60px;
 }
 
 .about-me-info p{
@@ -548,6 +548,10 @@ navbar{
     letter-spacing:0.1rem;
     line-height: 1;
     margin-bottom:10px;
+    }
+    
+    .home-page-title{
+        margin-left:50px;
     }
 }
 
