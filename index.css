@@ -399,6 +399,8 @@ navbar{
     text-align:center;
     background-color:white;
     border: 5px solid #fafafa;
+    width:400px;
+    margin-left:13px;
 }
 
 #image-1{
@@ -503,6 +505,15 @@ navbar{
 
 
 @media(min-width:992px){
+    .projects-grid{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+}
+    
     
     .navbar-list {
     margin-top:20px;
