@@ -146,11 +146,12 @@ navbar{
 }
 
 .home-page-title h1{
-    font-size:8vh;
+    font-size:9vh;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing:0.1rem;
     line-height: 1;
+    margin-bottom:10px;
 }
 
 .home-page-title span{
@@ -161,7 +162,7 @@ navbar{
 
 .home-page-title small{
     display:block;
-    margin-top:-60px;
+    margin-top:-50px;
     margin-left:3px;
     font-size:1.4rem;
 }
@@ -177,7 +178,7 @@ navbar{
 
 .home-page-btn::before{
     width:0px;
-    height:46px;
+    height:44px;
     content:"";
     background-color:red;
     position:absolute;
@@ -194,7 +195,7 @@ navbar{
 }
 
 .home-page-btn:hover::before{
-    width:140px;
+    width:130px;
     transition: width 0.3s;
 }
 
