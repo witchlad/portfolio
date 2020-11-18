@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html lang="eng"/>
+        <meta name="author" content="Dawid Olearczyk"/>
+        <meta name="description" content="Cześć! Nazywam sie Dawid Olearczyk. Zajmuję się kodowaniem stron internetowych. Zapraszam do kontaktu."/>
+        <meta name="keywords" content="front-end developer, kodowanie stron internetowych, html, css, strona internetowa"/>
+        <meta name="viewport" content="width=device-widt, initial-scale=1, maximum-scale=1"/>
+        <title> Dawid Olearczyk / Portfolio / Front-End Dev </title>
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet"/> 
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+       <header>
+           <navbar>
+               <div class="navbar-logo">
+                   <h1>Dawid Olearczyk<br/><span>Front-End Developer</span></h1>
+                   <div class="navbar-hamburger" id="hamburger">
+                       <div class="hamburger-menu-1"></div>
+                       <div class="hamburger-menu-2"></div>
+                       <div class="hamburger-menu-3"></div>
+                </div>
+               </div>
+               <div class="navbar-list" id="list">
+                   <ul>
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+               </div>
+           </navbar>
+       </header> 
+       
+       <section class="home-page" id="home">
+           <div class="home-page-title" data-aos="fade-right" data-aos-duration="1500">
+               <h1><span>Front-End</span><br/> Developer </h1>
+               <small> Let's create something great </small>
+               <button class ="home-page-btn"> Contact with me</button>
+            </div>    
+        </section>   
+        
+        <section class="about-me" id="about-me">
+            <div class="about-me-info"  data-aos="fade-up" data-aos-duration="1500">
+                <h1 class="subtitle"> About Me</h1>
+                <h4 class="subtitle-pill"> Hello World!</h4><br/>
+                <p>My name is Dawid, and I'm a Junior Fron-End Developer. <span>I began my journey with programming in 2018</span>, and since then I'm trying my best, so I can finally put my foot in the industry. <br/><br/> Since then, I have finished two courses - one at <span>IT Academy</span> and another on <span>Scrimba</span>. Both of these were created entirely in english, which helped me with deeper undesertanding of most of the FED topics. I do understand the importance of constant learning, and that's why I'm polishing my gained skills and I'm still trying to understand diffrent FED preprocessors, libraries etc. </p>
+            </div>
+            <div class="about-me-img" data-aos="fade-right" data-aos-duration="1500">
+                <img src="/images/front-pic.svg">
+            </div>
+            
+        </section>
+        
+        <section class="technology" id="technology" data-aos="fade-left" data-aos-duration="1500">
+            <div>
+                <h1 class="subtitle"> Technology </h1>
+                <h4 class="subtitle-pill">Skills</h4>
+                    <div class="tech-hexagon">
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon1.svg"></span></div>
+                            <h3> HTML</h3>
+                        </div>
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon2.svg"></span></div>
+                            <h3> CSS</h3>
+                        </div>
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon3.svg"></span></div>
+                            <h3> JS</h3>
+                        </div>
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon4.svg"></span></div>
+                            <h3> React</h3>
+                        </div>
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon5.svg"></span></div>
+                            <h3> RWD</h3>
+                        </div>
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon6.svg"></span></div>
+                            <h3> Bootstrap</h3>
+                        </div>
+                        <div>
+                            <div class="hexagon"><span><img src="/images/icon7.svg"id="icon7"></span></div>
+                            <h3> SASS</h3>
+                        </div>
+                    </div>
+            </div>
+            
+        </section>
+        
+        <section class ="projects" id="projects" data-aos="fade-right" data-aos-duration="1500">
+            <h1 class="subtitle">Projects</h1>
+            <h4 class="subtitle-pill">Few Examples</h4>
+            <div class="projects-grid">
+                
+                <div>
+                    <div class="project" id="image-1"></div>
+                    <div class="project-btm-btn">
+                        <button class="project-btn">
+                            <a href="https://github.com/witchlad/real-estate-agency">View Code</a>
+                        </button>
+                        <button class="project-btn">
+                            <a href="https://witchlad-flatmo.netlify.app/"> Live </a>
+                        </button>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="project" id="image-2"></div>
+                    <div class="project-btm-btn">
+                        <button class="project-btn">
+                            <a href="https://github.com/witchlad/snake-game">View Code</a>
+                        </button>
+                        <button class="project-btn">
+                            <a href="https://witchlad-snake.netlify.app/"> Live </a>
+                        </button>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="project" id="image-3"></div>
+                    <div class="project-btm-btn">
+                        <button class="project-btn">
+                            <a href="https://github.com/witchlad/print-picker-react">View Code</a>
+                        </button>
+                        <button class="project-btn">
+                            <a href="https://witchlad-ppicker.netlify.app/"> Live </a>
+                        </button>
+                    </div>
+                </div>
+           
+                <div> 
+                    <div class ="project" id="image-4"></div>
+                    <div class ="project-btm-btn">
+                        <button class="project-btn">
+                            <a href="https://github.com/witchlad/movie-search-app">View Code</a>
+                        </button>
+                        <button class="project-btn">
+                            <a href="https://witchlad-msearch.netlify.app"> Live </a>
+                        </button>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact" id="contact" class="about-me-info"  data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="subtitle">Contact</h1>
+            <h4 class="subtitle-pill">You can find me here</h4>
+            <div class="contact-section">
+                <div class="contact-sites">
+
+                            <div class="contact-site-content">
+                                <img src="/images/github.svg"/>
+                                <a href="https://github.com/witchlad">Github</a>
+                            </div>
+                        
+                            <div class="contact-site-content">
+                                <img src="/images/facebook.svg"/>
+                                <a href="https://www.facebook.com/dawid.olearczyk">Facebook</a>
+                            </div>
+                    
+                            <div class="contact-site-content">
+                                <img src="/images/linkedin.svg"/>
+                                <a href="">Linkedin</a>
+                            </div>
+                    
+                            <div class="contact-site-content">
+                                <img src="/images/email.svg"/>
+                                <a href="mailto:dolearczyk95@gmail.com">Email</a>
+                            </div>
+                       
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+        
+        </footer>
+        <script src="index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+    </body>
+</html>
