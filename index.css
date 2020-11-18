@@ -134,7 +134,7 @@ navbar{
 
 .open{
     margin-top:100px;
-    height:100vh;
+    height:90vh;
     transition: all 0.5s;
 }
 
@@ -195,7 +195,7 @@ navbar{
 }
 
 .home-page-btn:hover::before{
-    width:120px;
+    width:122px;
     transition: width 0.1s;
 }
 
@@ -249,7 +249,7 @@ navbar{
 }
 
 .about-me-img{
-    width:70%;
+    width:90%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -497,14 +497,12 @@ navbar{
         width:50%;
     }
     
-    .about-me-img{
-    width:40%;
-}
     
 }
 
 
 @media(min-width:992px){
+    
     .tech-hexagon{
         margin-top:100px;
        flex-flow:row ;
@@ -536,8 +534,18 @@ navbar{
     .about-me-img{
     width:50%;
 
+    }   
 }
-    
+
+@media(min-width:700px){
+    .home-page-title h1{
+    font-size:10vh;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing:0.1rem;
+    line-height: 1;
+    margin-bottom:10px;
+    }
 }
 
 
