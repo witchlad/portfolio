@@ -362,10 +362,15 @@ navbar{
     margin-right:50px;
 }
 
-.project{
+.project-exp{
     width:400px;
+
+}
+
+.project{
     height:364px;
     background-color: #fff;
+    display:flex;
     margin-top:20px;
     margin-left:auto;
     margin-right:auto;
@@ -375,9 +380,7 @@ navbar{
 }
 
 .project img{
-    width:400px;
     margin-bottom:20px;
-    height:364px;
 }
 
 .project-btn{
@@ -399,8 +402,8 @@ navbar{
     text-align:center;
     background-color:white;
     border: 5px solid #fafafa;
-    width:400px;
-    margin-left:13px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #image-1{
@@ -505,14 +508,6 @@ navbar{
 
 
 @media(min-width:992px){
-    .projects-grid{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content: space-around;
-    margin-top:50px;
-    margin-left:50px;
-    margin-right:50px;
-}
     
     
     .navbar-list {
@@ -568,6 +563,15 @@ navbar{
     .home-page-title{
         margin-left:50px;
     }
+    
+    .projects-grid{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+}
 }
 
 
