@@ -39,7 +39,7 @@ navbar{
 .navbar-logo h1{
     font-size: 1.5rem;
     font-weight: 800;
-    margin-left:10px;
+    margin-left:20px;
 }
 
 .navbar-logo span{
@@ -97,7 +97,6 @@ navbar{
 .navbar-list li{
     padding:20px;
     font-weight: 700;
-    width:100%;
     border:1px solid green;
 }
 
