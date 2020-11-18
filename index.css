@@ -182,6 +182,7 @@ navbar{
 
 .home-page-btn:hover{
     background-color:#ff7f7f;
+    cursor:pointer;
 }
 
 .about-me {
