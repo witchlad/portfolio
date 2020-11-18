@@ -355,7 +355,7 @@ navbar{
 
 .projects-grid{
     display:flex;
-    flex-flow:row wrap;
+    flex-flow:column;
     justify-content: space-around;
     margin-top:50px;
     margin-left:50px;
@@ -367,6 +367,8 @@ navbar{
     height:364px;
     background-color: #fff;
     margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;
     border: 5px solid #fafafa;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
