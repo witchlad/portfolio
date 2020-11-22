@@ -70,6 +70,7 @@ navbar{
     margin-left:auto;
     margin-top:20px;
     margin-right:20px;
+    cursor: pointer;
 }
 
 .hamburger-menu-1, .hamburger-menu-2, .hamburger-menu-3 {
@@ -426,6 +427,7 @@ navbar{
 
 .contact{
     padding-top:100px;
+    margin-bottom:50px;
 }
 
 .contact-sites{
@@ -455,8 +457,18 @@ navbar{
     margin-top:12px;
 }
 
+footer {
+    background-color: white;
+    margin-bottom: 0px;
+    height:30px;
+    font-size:.7rem;
+    text-align:right
+}
 
-
+footer p{
+    padding:10px;
+    margin-right:50px;
+}
 
 
 @media(min-width:1200px){
