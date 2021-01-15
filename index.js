@@ -1,7 +1,7 @@
-let button = document.getElementById("hamburger")
-let navigation = document.getElementById("list")
+$('#hamburger').on('click', function () {
+  $('#list').addClass('open');
+});
 
-button.addEventListener("click",function(){
-    button.classList.toggle("change");
-    navigation.classList.toggle("open")
-})
+$( '#list a' ).on("click", function(){
+  $('#list').removeClass('open');
+});
