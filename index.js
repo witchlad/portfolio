@@ -1,5 +1,5 @@
 $('#hamburger').on('click', function () {
-  $('#list').addClass('open');
+  $('#list').toggleClass('open');
 });
 
 $( '#list a' ).on("click", function(){
